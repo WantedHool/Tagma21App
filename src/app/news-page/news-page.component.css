@@ -1,0 +1,118 @@
+.nav-tabs>li.active>a{
+	color: white;
+	cursor: default;
+	background-color:#6CA8D1;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+.nav-tabs>li.active>a:focus{
+	background-color:transparent;
+	border: 2px solid #6CA8D1;
+	color: #6CA8D1;
+}
+.nav-tabs>li.active>a:hover {
+	color: #6CA8D1;
+}
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+.nav-tabs {
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+.nav-tabs>li>a,.nav-tabs>li.active>a,.nav-tabs>li>a:hover , .nav-tabs>li>a:focus {
+	background: rgb(108, 168, 209);
+	padding: 11px;
+	width: 240px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 19px;
+	margin-bottom: 4px;
+}
+button.button-info {
+	padding: 6px;
+	color: rgb(26, 104, 121);
+	background: transparent;
+	border-radius: 1px;
+	margin-right: 11px;
+	float: left;
+	border: 2px solid rgb(108, 168, 209);
+}
+#exTab2 h3 {
+	color: rgb(51, 122, 183);
+	padding: 5px 15px;
+}
+.blog-event {
+	margin: 40px 0 85px;
+}
+.featured-img {
+	float: left;
+	padding-right: 25px;
+}
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.header-text {
+	position: relative;
+	top: 29%;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+  /*-------------------------------------------------------------------------------------------------------------------------------*/
+/******* Carousel ******/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.carousel {
+    position: relative;
+    top: 30px;
+    margin-bottom: 35px;
+    float: left;
+    width: 100%;
+}
+.carousel-control.left ,.carousel-control.right  {
+background: none;
+}
+.content-block{
+	margin-top: 20px;
+}
+
+@media (max-width: 600px){
+.carousel-caption {
+font-family: 'Poiret One', cursive;
+font-size: 24px !important;
+font-weight: bold;
+background: none;
+}
+
+}
+.carousel-caption {
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	background: rgba(152, 168, 173, 0.43);
+
+}
+
+/******* Carousel End ******/
