@@ -1,17 +1,17 @@
-.nav-tabs>li.active>a{
+/* .nav-tabs>li.active>a{
 	color: white;
 	cursor: default;
 	background-color:#6CA8D1;
 	border: 1px solid #ddd;
 	border-bottom-color: transparent;
-}
+} */
 .nav-tabs>li.active>a:focus{
 	background-color:transparent;
 	border: 2px solid #6CA8D1;
 	color: #6CA8D1;
 }
 .nav-tabs>li.active>a:hover {
-	color: #6CA8D1;
+	color: black;
 }
 #exTab1 .tab-content {
   color : white;
@@ -22,6 +22,8 @@
 	border-bottom: none;
 	padding-bottom: 10px;
 }
+
+
 .nav-tabs>li>a,.nav-tabs>li.active>a,.nav-tabs>li>a:hover , .nav-tabs>li>a:focus {
 	background: rgb(108, 168, 209);
 	padding: 11px;
@@ -34,16 +36,26 @@
 }
 button.button-info {
 	padding: 6px;
-	color: rgb(26, 104, 121);
+	color: black;
 	background: transparent;
-	border-radius: 1px;
+	border-radius: 20px;
 	margin-right: 11px;
 	float: left;
-	border: 2px solid rgb(108, 168, 209);
+	border: 2px solid #A34D4E;
 }
-#exTab2 h3 {
-	color: rgb(51, 122, 183);
+
+button.button-info:hover{
+    background-color: #A34D4E;
+}
+
+#exTab2 {
+	color: black;
 	padding: 5px 15px;
+}
+
+.articleHeader{
+    color: #A34D4E;
+    padding: 5px 15px;
 }
 .blog-event {
 	margin: 40px 0 85px;
