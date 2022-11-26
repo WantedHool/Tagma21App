@@ -7,6 +7,8 @@ import { NewsPageComponent } from './news-page/news-page.component';
 import { DownSyndromePageComponent } from './down-syndrome-page/down-syndrome-page.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductsComponent } from './products/products.component';
+import { PurposeComponent } from './purpose/purpose.component';
+import { MembersComponent } from './members/members.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProductsComponent } from './products/products.component';
     NewsPageComponent,
     DownSyndromePageComponent,
     ContactComponent,
-    ProductsComponent
+    ProductsComponent,
+    PurposeComponent,
+    MembersComponent
   ],
   imports: [
     BrowserModule,
