@@ -121,3 +121,7 @@
   .form-btn:active{
     opacity: 0.9;
   }
+
+  .form-check-input:checked{
+    background-color: #A34D4E;
+  }
