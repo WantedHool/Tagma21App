@@ -8,8 +8,9 @@ import { ProductsComponent } from './products/products.component';
 import { PurposeComponent } from './purpose/purpose.component';
 
 const routes: Routes = [
+  { path: '', component: DownSyndromePageComponent},
   { path: 'news-page', component: NewsPageComponent},
-  { path: 'down', component: DownSyndromePageComponent},
+  { path: 'trisomia21', component: DownSyndromePageComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'products', component: ProductsComponent},
   { path: 'purpose', component:PurposeComponent},
